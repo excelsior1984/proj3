@@ -16,16 +16,20 @@
     </dependency>
   </dependencies>
 
+  <properties>
+    <sonar.host.url>http://mysonar:9000</sonar.host.url>
+  </properties>
+  
   <distributionManagement>
     <repository>
 	<id>central</id>
         <name>libs-releases</name>
-        <url>http://10.0.5.4:8081/artifactory/repo1</url>
+        <url>http://artifactory:8081/artifactory/repo1</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
 	<name>libs-snapshots</name>
-        <url>http://10.0.5.4:8081/artifactory/repo1</url>
+        <url>http://artifactory:8081/artifactory/repo1</url>
     </snapshotRepository>
 </distributionManagement>
 
