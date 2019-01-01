@@ -38,7 +38,7 @@ pipeline {
 
             steps {
 
-                sh "mvn sonar:sonar -Dsonar.host.url=mysonar"
+                sh "mvn sonar:sonar -Dsonar.host.url=mysonar:9000"
 
             }
 
