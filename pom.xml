@@ -18,6 +18,10 @@
 
   <properties>
     <sonar.host.url>http://mysonar:9000</sonar.host.url>
+
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+
   </properties>
   
   <distributionManagement>
@@ -29,7 +33,7 @@
     <snapshotRepository>
         <id>snapshots</id>
 	<name>libs-snapshots</name>
-        <url>http://artifactory:8081/artifactory/example-repo-local</url>
+        <url>http://localhost:8081/artifactory/example-repo-local</url>
     </snapshotRepository>
 </distributionManagement>
 
